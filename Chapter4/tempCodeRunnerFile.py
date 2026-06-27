@@ -1,0 +1,1 @@
+    # print(f"{num} x {i} = {num * i}")
