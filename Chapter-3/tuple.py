@@ -16,9 +16,9 @@
 # concatenated = tup1 + tup2
 # print(concatenated)
 
-# my_tuple = (1, 2, 3, 4, 5)
-# repeat = (my_tuple*3)
-# print(repeat)
+my_tuple = (1, 2, 3, 4, 5)
+repeat = (my_tuple*3)
+print(repeat)
 
 # tup_1 = (1, 2, 3, 4, 6, 7, 8, 9, 10) #This will print the length of the tuple
 # print(len(tup_1))
