@@ -1,5 +1,8 @@
-import pyttsx3
-engine = pyttsx3.init()
+#Program to calculate the total marks and percentage by taking input from the user.
 
-engine.say("Hi, You're really a good man")
-engine.runAndWait()
+Physics = int(input("Enter marks of Physics: "))
+Chemistry = int(input("Enter marks of Chemistry: "))
+Maths = int(input("Enter marks of Maths: "))
+
+print(f"Your total marks are: {Physics + Chemistry + Maths} out of 300")
+print(f"Your percentage is: {(Physics + Chemistry + Maths)/300*100}")
